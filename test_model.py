@@ -50,8 +50,6 @@ from models import Net
 
 net = Net()
 
-## TODO: load the best saved model parameters (by your path name)
-## You'll need to un-comment the line below and add the correct name for *your* saved model
 net.load_state_dict(torch.load('saved_models/keypoints_model_1.pt'))
 
 ## print out your net and prepare it for testing (uncomment the line below)
